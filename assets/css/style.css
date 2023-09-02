@@ -1,0 +1,65 @@
+body{
+    background-color: gray;
+    color: #fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+}
+
+hr{
+    width: 40%;
+}
+
+.conversor{
+    text-align: center;
+    background-color: black;
+    margin-top: 20px;
+    border-radius: 2%;
+    padding: 30px;
+    padding-top: 0px;
+    width: 20%;
+}
+
+.inputs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input, #buscar{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+}
+
+#buscar{
+    margin-top: 20px;
+    background-color: rgb(1, 106, 141);
+    color: white;
+    font-weight: bold;
+}
+
+#buscar:hover{
+    background-color: rgb(84, 145, 165);
+}
+
+#buscar:active{
+    background-color: rgb(158, 165, 84);
+}
+
+.grafico{
+    display: none;
+    justify-content: center;
+    width: 70%;
+    margin-top: 20px;
+}
+
+#myChart{
+    background-color: white;
+}
